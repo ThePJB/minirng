@@ -1,0 +1,16 @@
+[package]
+name = "minirng"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A mini audio library"
+repository = "https://github.com/ThePJB/minirng"
+
+[dependencies]
+minvect = "0.1.3"
+
+[dev-dependencies]
+minimg = "0.1.2"
+
+[profile.test]
+opt-level = 3
