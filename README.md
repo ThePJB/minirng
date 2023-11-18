@@ -7,3 +7,4 @@ a very mini rng and noise library
 ## Todo
 * noise with analytical gradient
 * maybe putting of other cool forms of noise eg worley etc whatevs
+* yea omg the seeds, fookin cannot. test seeds of negatives etc

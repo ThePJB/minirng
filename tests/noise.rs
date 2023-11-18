@@ -18,6 +18,7 @@ fn test_noise() {
     for i in 0..NOISE_S {
         for j in 0..NOISE_S {
             let p = vec2(i as f32, j as f32) / NOISE_S as f32;
+            let p = p - vec2(0.5, 0.5);
             let p = p * 16.0;
             buf.set(i, j, vec4(
                 noise_grad(&p, seed1),
