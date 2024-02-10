@@ -7,10 +7,10 @@ description = "A mini audio library"
 repository = "https://github.com/ThePJB/minirng"
 
 [dependencies]
-minvect = "0.1.3"
+minvect = "0.1.6"
 
 [dev-dependencies]
-minimg = "0.1.2"
+minimg = "0.1.4"
 
 [profile.test]
 opt-level = 3

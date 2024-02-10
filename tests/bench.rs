@@ -1,4 +1,5 @@
 use std::time::Instant;
+use std::path::Path;
 
 use minimg::ImageBuffer;
 use minirng::hash::*;
@@ -36,5 +37,5 @@ pub fn sample_khash() {
     }
     let dur = tstart.elapsed().as_secs_f32();
     println!("test khash took {}", dur);
-    buf.dump_to_file("khash.png");
+    buf.save(Path::new("khash.png"));
 }
